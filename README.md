@@ -3,8 +3,7 @@
 ## Overview
 This project analyzes the **World Happiness Report (WHR)**, an annual publication by the United Nations Sustainable Development Solutions Network (SDSN). The WHR explains the happiness and well-being of various countries worldwide. Data is collected via the Gallup World Poll, which measures well-being and happiness using a standardized set of survey questions.
 
-The dataset used in this project contains data from **2008 - 2023**, with **11 variables** and **2199 observations** in its raw, uncleaned form. The main variable of interest is the **Life Ladder**, the national average response to the poll of life evaluations on
-many aspects of quality of life. The dataset offers a unique opportunity to explore global happiness trends, with additional data on key qualityof life metrics such as GDP, freedom of decision, social support, generosity, corruption, and life expectancy among others.
+The dataset used in this project contains data from **2008 - 2023**, with **11 variables** and **2199 observations** in its raw form. The main variable of interest is the **Life Ladder**, the national average response to the poll of life evaluations on many aspects of quality of life. The dataset offers a unique opportunity to explore global happiness trends, with additional data on key quality of life metrics such as GDP, freedom of decision, social support, generosity, corruption, and life expectancy among others.
 
 
 ## Goal
@@ -25,4 +24,26 @@ The primary objective of this project is to determine the most effective subset 
 |**Perceptions of Corruption** | **Average of binary responses to the following: “Is corruption widespread throughout the government or not?” “Is corruption widespread within businesses or not?”**  |
 |**Positive Affect** | **These measures include responses to the following questions: "Did you smile or laugh a lot yesterday?", "Did you experience enjoyment during a lot of the day yesterday?", and "Did you learn or do somethinginteresting yesterday?**  |
 |**Negative Affect** | **Average of three negative affect measures in GWP. Worry, sadness, anger for question “Did you experience the following  feelings during A LOT OF THE DAY yesterday?"**  |
+
+## Key Steps
+-  Data Cleaning
+-  Early Data Visualizations
+-  Visual Analysis
+-  Model Fitting and Model Selection
+-  Conclusion
+
+## Tools and Techniques 
+- **Data Manipulation**:  pandas, NumPy
+- **Data Visualization**: Altair, Matplotlib
+- **Statistical Modeling**: Statsmodels
+- **Handling Missing Data**: Missingno
+
+## Project Outcomes
+This project will:
+- Provide a comprehensive model explaining the trends of the world's happiness and quality of life.
+- Demonstrate visualizations of how different factors affect the quality of life across the globe.
+
+
+
+
 
